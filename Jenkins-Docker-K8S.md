@@ -126,6 +126,7 @@ $ kubectl version --short --client <br/>
 	$ cd /var/lib/jenkins <br/>
 	$ sudo mkdir .kube  <br/>
 	$ sudo vi .kube/config  <br/>
+ if error then create this directory in ubuntu home location
 
 3) check eks nodes <br/>
 	$ kubectl get nodes 
